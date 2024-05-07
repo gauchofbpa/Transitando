@@ -1,2 +1,2 @@
-# Telas-do-Projeto-EPTRAN
+# Telas-EPTRAN
 Telas do Projeto EPTRAN
