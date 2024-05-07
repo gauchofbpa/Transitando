@@ -2,16 +2,105 @@
     font-family: 'Glacial Indifference', sans-serif;
 }
 
+body {
+    height: 100vh;
+    padding: 0px;
+}
+
 .iSemaforo {
+    margin-top: 20px;
+    margin-bottom: 0px;
     display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 26px;
+    padding: 0px;
 }
 
 
 .iSemaforo img {
    width: auto;
-   height: 36px;
-   margin-top: 24px;
-   justify-content: center;
-   text-align: center;
-   align-items: center;
+   height: 60px;
+   margin-top: 36px;
+}
+
+#centro {
+    background-color: #3464A7;
+    border-radius: 25px;
+    justify-content: center;
+    width: 95%;
+    height: 215px;
+    margin-left: auto;
+    margin-right: auto; 
+    align-items: center;
+    margin-top: 0px;
+}
+
+#centro p {
+    color: white;
+}
+
+#centroCima {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    border-radius: 25px;
+    border-width: 1px;
+    width: 275px; 
+    height: 25px;
+}
+
+#usuario, #senha {
+    margin-bottom: 2px;
+}
+
+.invisivel {
+    border-width: 0px;
+    background-color: #3464A7;
+    color: white;
+    font-size: 22px;
+}
+
+#cadastrar {
+    margin-top: 25px;
+}
+
+header{
+    background-color: #3464A7;
+    display: flex;
+    margin: 0;
+
+}
+
+.menuImg {
+    width: 100px;
+    height: auto;
+    padding: 5px;
+}
+
+.dropdown{
+    display: inline-block;
+    position: relative;
+}
+
+#guarda {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: auto;
+    height: 275px;
+    padding: 0px;
+}
+
+#semaforo {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin-right: 30px;
+    width: auto;
+    height: 250px;
 }
