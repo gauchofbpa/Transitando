@@ -1,0 +1,17 @@
+* {
+    font-family: 'Glacial Indifference', sans-serif;
+}
+
+.iSemaforo {
+    display: flex;
+}
+
+
+.iSemaforo img {
+   width: auto;
+   height: 36px;
+   margin-top: 24px;
+   justify-content: center;
+   text-align: center;
+   align-items: center;
+}
