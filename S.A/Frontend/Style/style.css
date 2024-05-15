@@ -173,3 +173,89 @@ header{
 .venha {
     margin: 0px;
 }
+
+#series {
+    margin-top: 70px;
+    display: flex;
+}
+
+#series img {
+    width: auto;
+    height: 28px;
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#principal {
+    background-image: url("../Img/fundoDeformado.png");
+    background-repeat: no-repeat;
+    background-size: 375px;
+    background-position-x: -5px;
+    margin: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    text-align: center;
+
+}
+
+#atencao {
+    padding-top: 15px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+
+#meio {
+    display: flex;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 105px;
+}
+
+#secundario {
+    margin-bottom: 15px;
+}
+
+#amarelado {
+    margin-bottom: 5px;
+    color: #FFD42A;
+    font-size: 28px;
+    
+}
+
+#meio img {
+    margin-top: 0px;
+    padding-top: 0px;   
+    top: 0;
+    transform: translateY(-50px);
+}
+
+#textoMeio p{
+    font-size: 14px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    gap: 10px;
+}
+
+#jogo {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+#baixo {
+    text-align: center;
+    margin-top: 0px;
+}
+
+#baixo img {
+    position: absolute;
+    transform: translateX(-143px) translateY(-75px);
+    border-radius: 15px;
+}
+
+#botaoJogo {
+    text-align: center;
+    margin-top: 135px;
+}
