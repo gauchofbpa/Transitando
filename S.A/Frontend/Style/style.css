@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .flex{
     display: flex;
 }
@@ -150,4 +151,106 @@ header{
     height: 150px;
     transform: translate(-20px , 180px);
     z-index: -2;
+=======
+.flex{
+    display: flex;
+}
+.cadastro{
+    font-family: 'Glacial Indifference', sans-serif;
+    text-align: center;
+    margin: 20px;
+    margin-top: 30px;
+    font-size: 45px;
+}
+.blueGround{
+    background-color: #3464A7;
+    border-radius: 25px;
+    justify-content: center;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto; 
+    align-items: center;
+    margin-top: 0px;
+}
+.infoCadastro{
+    font-family: 'Glacial Indifference', sans-serif;
+    color: white;
+    text-align: center;
+    padding-top: 1px;
+}
+.textoOu{
+    font-family: 'Glacial Indifference', sans-serif;
+    color: white;
+    text-align: center;
+    margin: -5px;
+}
+#eclipseBranco{
+    padding: 1;
+    padding-bottom: 20px;
+    margin-left: 10px;margin-right: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+.containerCadastro{
+    width: 00px;/*LARGURA*/
+    height: 30px; /* ALTURA */
+    background-color: transparent;
+}
+.paiBotao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#botaoContinuar{
+    margin-top: 10px;
+    font-family: 'Glacial Indifference', sans-serif;
+    padding: 10px 25px;
+    background-color: #274B7D;
+    border-radius: 10px;
+    border: solid #274B7D;
+    color: white;
+}
+#botaoContinuar:hover{
+    background-color: #1e314b;
+}
+.textoLogin{
+    font-family: 'Glacial Indifference', sans-serif;
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    padding-bottom: 5px;
+}
+#guarda{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: auto;
+    height: 220px;
+    padding: 0px;
+}
+#semaforo{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin-right: 30px;
+    width: auto;
+    height: 250px;
+}
+header{
+    background-color: #3464A7;
+    display: flex;
+    margin: 0;
+
+}
+
+.menuImg {
+    width: 100px;
+    height: auto;
+    padding: 5px;
+}
+
+.dropdown{
+    display: inline-block;
+    position: relative;
+>>>>>>> cd52f006c3b8d0d7c638c2d9eb923573b489260f
 }
