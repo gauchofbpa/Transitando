@@ -1,0 +1,556 @@
+/* STYLE GERAL */
+body {
+    font-family: 'Glacial Indifference', sans-serif;
+    background-color: #fafafa;
+    width: 100%;
+    margin: 0px;
+}
+header {
+    background-color: #3464A7;
+    display: flex;
+    height: 70px;
+    width: 100%;
+}
+.logoImg {
+    width: 75px;
+    height: auto;
+    padding: 5px;
+    margin-top: 5px;
+}
+.dropdown {
+    position: absolute;
+    margin-top: 10px;
+    right: 20px;
+}
+.dropdownLogo {
+    width: 20px;
+    height: auto;
+    padding: 5px;
+}
+/* FIM DO STYLE GERAL */
+/* STYLE DA PÁGINA DE LOGIN - NICOLAS */
+.iSemaforo {
+    margin-top: 20px;
+    margin-bottom: 0px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 26px;
+    padding: 0px;
+}
+.iSemaforo img {
+    width: auto;
+    height: 60px;
+    margin-top: 36px;
+}
+.containerGeral {
+    background-color: #3464A7;
+    border-radius: 25px;
+    justify-content: center;
+    width: 95%;
+    height: 215px;
+    margin-left: auto;
+    margin-right: auto; 
+    align-items: center;
+    margin-top: 0px;
+}
+#containerGeral p {
+    color: white;
+}
+#matriculaUsuario {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#usuarioLogin, #senhaLogin {
+    margin-bottom: 2px;
+}
+.botaoLogin {
+    border-width: 0px;
+    background-color: #3464A7;
+    color: white;
+    font-size: 22px;;
+}
+.inputLogin {
+    border-radius: 25px;
+    border-width: 1px;
+    width: 275px; 
+    height: 25px;
+}
+#guardaLogin {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: auto;
+    height: 275px;
+    padding: 0px;
+}
+#semaforoLogin {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin-right: 30px;
+    width: auto;
+    height: 250px;
+}
+/* FIM DO STYLE DA PÁGINA DE LOGIN */
+/* STYLE DA PÁGINA DE ESCOLHA DO VÍDEO SÉRIES INICIAIS - NICOLAS */
+#backgroundEstrada {
+    background-image: url("../Img/estradaBranca.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0%;
+}
+.containerSerieInicialVideo {
+    text-align: center;
+    justify-content: center;
+    padding-top: 20px;
+    height: 300px;
+    width: 280px;
+    margin-top: 150px;
+}
+#textoPrincipal {
+    background-image: url("../Img/fundoDeformado.png");
+    background-repeat: no-repeat;
+    background-size: 375px;
+    background-position-x: -5px;
+    margin: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    text-align: center;
+}
+.textoBranco {
+    color: white;
+}
+#textoSecundario {
+    margin-top: 45px;
+}
+.textoNegrito {
+    font-weight: bold;
+}
+.textoTamanho {
+    font-size: 26px;
+    margin-bottom: 5px;
+}
+.textoTamanhoNegrito {
+    font-size: 28px;
+    margin-top: 0px;
+}
+.botaoStartGeral{
+    border-radius: 35%;
+    background-color: rgb(252,212,76);
+    width: 160px;
+    height: 60px;
+    border: 4px solid black;
+    text-align: center;
+    box-shadow: 0 7px rgb(252,212,76);
+    font-family: 'Glacial Indifference', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+#containerTextoIniciais {
+    margin-top: 30px;
+    text-align: right;
+}
+.textoRoxo {
+    color: #433379;
+}
+.textoMargem {
+    margin: 0px;
+}
+#semaforoMenorA {
+    padding: 0px;
+    margin: 0px;
+}
+/* FIM DO STYLE DA PÁGINA DE ESCOLHA DO VÍDEO SÉRIES INICIAIS */
+/* STYLE DA PÁGINA DE JOGOS DAS SÉRIES FINAIS - NICOLAS */
+#bodyJogoFinais {
+    margin: 0px;
+    padding: 0px;
+}
+#containerTextoSeries {
+    margin-top: 70px;
+    display: flex;
+}
+#containerTextoSeries img {
+    width: auto;
+    height: 28px;
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+#textoAtencao {
+    padding-top: 15px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+#corAtencao {
+    margin-bottom: 5px;
+    color: #FFD42A;
+    font-size: 28px; 
+}
+#containerTextoPrincipal {
+    display: flex;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 105px;
+}
+#containerTextoPrincipal img {
+    margin-top: 0px;
+    padding-top: 0px;   
+    top: 0;
+    transform: translateY(-50px);
+}
+#enunciadoJogoFinais p{
+    font-size: 14px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    gap: 10px;
+}
+#containerEstacionamento {
+    text-align: center;
+    margin-top: 0px;
+}
+#containerEstacionamento img {
+    position: absolute;
+    transform: translateX(-143px) translateY(-75px);
+    border-radius: 15px;
+}
+#containerBotao {
+    text-align: center;
+    margin-top: 135px;
+}
+/* FIM STYLE DA PÁGINA DE JOGOS DAS SÉRIES FINAIS */
+/* STYLE DA PÁGINA INICIAL - PAULA */
+.backgroundInicial {
+    height: 100vh;
+    width: 100vw;
+    max-height: 100vh;
+    overflow: hidden;
+    background-color: red;
+}
+#azul1 {
+    position: absolute;
+    left: -15px;
+    transform: scale(0.9);
+    z-index: 3;
+    bottom: -30px;
+}
+#azul2 {
+    position: absolute;
+    top: 7px;
+    /* transform: scale(-0.7); */
+    left: 212px;
+    /* transform: rotate(0deg); */
+    z-index: 4;
+}
+#azul3 {
+    position: absolute;
+    z-index: 2;
+    bottom: -70px;
+    left: -300px;
+    transform: scale(0.5); 
+}
+#sobreEptran {
+    display: block;
+    background-color:#274B7D;
+    border-radius: 15px;
+    color: white;
+    position: absolute ;
+    margin-top: 60px;
+    width: 250px;
+    left: 40px;
+    font-family: 'Glacial Indifference', sans-serif;
+    padding: 10px;
+    text-align: center;
+}
+#placasEDesc {
+    z-index: 1;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+}
+.imgEDesc {
+    text-align: center;
+    transform: scale(0.7);
+    margin: 0px;
+}
+.imgDaDesc {
+    transform: scale(0.4);
+}
+/* RASCUNHO - PAULA
+.dropdown{
+    display: inline-block;
+    position: relative;
+}
+.dropdownLogo{
+    width: 50px;
+    height: auto;
+    padding: 5px;
+}
+.mainmenubtn{
+    background-color: skyblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding:20px;
+    margin-top:20px;
+}
+.mainmenubtn:hover{
+    background-color: white;
+}
+.dropdown-child{
+    display: none;
+    background-color: skyblue;
+    min-width: 200px; 
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+}
+.dropdownContent {
+
+} */
+/* FIM DO STYLE DA PÁGINA INICIAL */
+/* STYLE DA PÁGINA DE CADASTRO - JONAS */
+.textoCadastro {
+    text-align: center;
+    margin: 20px;
+    margin-top: 30px;
+    font-size: 45px;
+}
+.backgroundCadastro {
+    background-color: #3464A7;
+    border-radius: 25px;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+}
+.infoCadastro {
+    color: white;
+    text-align: center;
+    padding-top: 1px;
+}
+#eclipseBranco {
+    padding: 1;
+    padding-bottom: 32px;
+    margin-left: 10px;margin-right: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+.botaoCadastro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#botaoContinuar {
+    margin-top: 10px;
+    padding: 10px 25px;
+    background-color: #274B7D;
+    border-radius: 10px;
+    border: solid #274B7D;
+    color: white;
+}
+#botaoContinuar:hover {
+    background-color: #1e314b;
+}
+.textoOu {
+    color: white;
+    text-align: center;
+    margin: -5px;
+}
+.textoLogin {
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    padding-bottom: 5px;
+}
+#guardaCadastro {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: auto;
+    height: 140px;
+    padding: 0px;
+}
+#semaforoCadastro {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin-right: 30px;
+    width: auto;
+    height: 180px;
+}
+/* FIM DO STYLE DA PÁGINA DE CADASTRO */
+/* STYLE DA PÁGINA DE JOGOS DAS SÉRIES INICIAIS - JONAS */
+.divCentro { 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+}
+.containerSerieInicial {
+    width: 200px;
+    height: 100px;
+    background: transparent;
+}
+/* FIM DO STYLE DA PÁGINA DE JOGOS DAS SÉRIES INICIAIS */
+/* STYLE DA PÁGINA DE JOGOS DO ENSINO MÉDIO - GAÚCHO */
+.tituloPaginaEM {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    font-size: 24px;
+}
+.tituloPaginaEM img {
+    width: auto;
+    height: 75px;
+}
+.textoMedio {
+    margin-left: 20px;
+}
+.cadeiranteExemplo {
+    border-radius: 10%;
+    width: 325px;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 40px;
+}
+.containerPergunta {
+    background-color: #3464A7;
+    border-radius: 5%;
+    text-align: center;
+    width: 300px;
+    height: 240px;
+    margin: auto;
+    color: #FAFAFB;
+}
+.textoPergunta {
+    font-size: 24px;
+    font-weight: bolder;
+}
+.textoEnunciado {
+    font-size: 16px;
+    font-weight: 600;
+}
+.containerAlternativa {
+    background-color: #274B7D;
+    border-radius: 5%;
+    width: 250px;
+    margin: auto;
+    font-weight: normal;
+    height: 105px;
+    text-align: center;
+    margin-top: 20px;
+}
+.textoAlternativa {
+    padding-top: 7px;
+}
+.imagemRoxo {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+/* FIM DO STYLE DA PÁGINA DE JOGOS DO ENSINO MÉDIO */
+/* STYLE DA PÁGINA PARA COMEÇAR OS JOGOS - GAÚCHO */
+.tituloPaginaJogos {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    font-size: 24px;
+}
+.tituloPaginaJogos img{
+    width: auto;
+    height: 85px;
+}
+.containerTexto {
+    text-align: center;
+    font-size: 20px;
+    margin-top: -20px;
+}
+.textoBotao {
+    font-size: 16px;
+}
+.botaoStart {
+    margin-top: 20px;
+    border-radius: 35%;
+    background-color: rgb(252,212,76);
+    width: 180px;
+    height: 65px;
+    border: 4px solid black;
+    text-align: center;
+    box-shadow: 0 7px rgb(252,212,76);
+    font-family: 'Glacial Indifference', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+.imagemRoxo {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.imagemEstrada {
+    position: absolute;
+    left: 1px;
+    transform: rotate(-1deg);
+    width: 325px;
+    margin-left: -130px;
+    margin-top: -70px;
+    margin-right: 100px;
+}
+/* FIM DO STYLE DA PÁGINA PARA COMEÇAR OS JOGOS */
+/* STYLE DA PÁGINA DE RANKING - GAÚCHO */
+.tituloPaginaRanking {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 50px;
+}
+.tituloPaginaRanking img {
+    width: auto;
+    height: 60px;
+    margin-top: 42.5px;
+}
+.rankingFundo {
+    background-color: #3464A7;
+    border-radius: 10px;
+    padding: 15px;
+    margin: auto;
+}
+.rankingTabela {
+    margin: auto;
+    font-size: 26px;
+    padding: 10px;
+    width: auto;
+    background-color: #E6F1FF;
+    border-radius: 10px;
+}
+.rankingPrincipal {
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.rankingPontos {
+    border-radius: 10px;    
+    width: 50px;
+    height: 15px;
+    background-color: #FAFAFB;
+}
+.rankingNome {
+    border-radius: 10px;   
+    width: 270px;
+    height: 15px;
+    background-color: #FAFAFB;
+}
+.rankingLugar {
+    font-size: 18px;
+    text-align: center;
+}
+/* FIM DO STYLE DA PÁGINA DE RANKING */
