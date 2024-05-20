@@ -7,62 +7,69 @@
     <script src="../Script/script.js"></script>
     <title>Transitando - Tela Inicial</title>
 </head>
-<body>
-    <header>
-        <!-- logo prefeitura -->
-        <div>
-            <img src="../Img/Logotipo_Prefeitura_horizontal_negativo.png" alt="Logotipo_Prefeitura_horizontal_negativo" class="logoImg">
-        </div>
-        <!-- menu suspenso -->
-        <div class="dropdown">
-            <button class="mainmenubtn"><img src="../Img/dropdown uma linha.png" alt="dropdown uma linha" id="dropdownImg" class="dropdownLogo"></button>
-            <div class="dropdownContent">
-                <!-- <button class="">Loren ipsum</button>
-                <button>Loren ipsum</button>
-                <button>Loren ipsum</button> -->
-            </div>
-        </div>
-    </header>
-    <section class="backgroundInicial">
+<body id="bodyBackground">
+    <div class="backgoundIMG"> 
         <img id="azul1" src="../Img/azul sem fundo.png">
         <img id="azul2" src="../Img/azul_2_COM_FUNDO-removebg-preview.png">
         <img id="azul3" src="../Img/roxo2.png">
-        <!-- sobre o eptran -->
-        <div id="sobreEptran">
-            <p>EPTRAN</p>
-            <p>A Escola Pública de Trânsito tem como objetivo a conscientização da população quanto ao comportamento no trânsito. </p>
+    </div>
+
+    <div id="root">
+        <header>
+            <!-- logo prefeitura -->
+            <div>
+                <img src="../Img/Logotipo_Prefeitura_horizontal_negativo.png" alt="Logotipo_Prefeitura_horizontal_negativo" class="logoImg">
+            </div>
+            <!-- menu suspenso -->
+            <div class="dropdown">
+                <button class="mainmenubtn"><img src="../Img/dropdown uma linha.png" alt="dropdown uma linha" id="dropdownImg" class="dropdownLogo"></button>
+                <div class="dropdownContent">
+                    <!-- <button class="">Loren ipsum</button>
+                    <button>Loren ipsum</button>
+                    <button>Loren ipsum</button> -->
+                </div>
+            </div>
+        </header>
+
+        <section class="backgroundInicial">
+
+            <!-- sobre o eptran -->
+            <div id="sobreEptran">
+                <h1>EPTRAN</h1>
+                <p>A Escola Pública de Trânsito tem como objetivo a conscientização da população quanto ao comportamento no trânsito. </p>
+            </div>
+            <!-- 4 placas -->
+            <div id="placasEDesc">
+                <!-- placa pare e descrição -->
+                <div class="imgEDesc">
+                    <img src="../Img/pare_com_fundo-removebg-preview.png" class="imgDaDesc">
+                    <p>PARADA OBRIGATÓRIA</p>
+                </div>
+                <!-- placa pribido virar e descrição -->
+                <div class="imgEDesc">
+                    <img src="../Img/proibido_virar_com_fundo-removebg-preview.png" class="imgDaDesc">
+                    <p>PROIBIDO VIRAR NA DIREÇÃO INDICADA</p>
+                </div>
+                <!-- placa pare e descrição -->
+                <div class="imgEDesc">
+                    <img src="../Img/90km_com_fundo-removebg-preview.png" class="imgDaDesc">
+                    <p>LIMITE DE VELOCIDADE DA VIA</p>
+                </div>
+                <!-- placa pare e descrição -->
+                <div class="imgEDesc">
+                    <img src="../Img/pedestre_com_fundo-removebg-preview.png" class="imgDaDesc">
+                    <p>PASSAGEM DE PEDESTRES</p>
+                </div>
+                <!-- placa pare e descrição -->
+                <div class="imgEDesc">
+                    <img src="../Img/pista_escorregadia_com_fundo-removebg-preview.png" class="imgDaDesc">
+                    <p>PISTA ESCORREGADIA</p>
+                </div>
+            </div>
+        </section>
+        <!-- última placa e start -->
+        <div>
         </div>
-        <!-- 4 placas -->
-        <div id="placasEDesc">
-            <!-- placa pare e descrição -->
-            <div class="imgEDesc">
-                <img src="../Img/pare_com_fundo-removebg-preview.png" class="imgDaDesc">
-                <p>PARADA OBRIGATÓRIA</p>
-            </div>
-            <!-- placa pribido virar e descrição -->
-            <div class="imgEDesc">
-                <img src="../Img/proibido_virar_com_fundo-removebg-preview.png" class="imgDaDesc">
-                <p>PROIBIDO VIRAR NA DIREÇÃO INDICADA</p>
-            </div>
-            <!-- placa pare e descrição -->
-            <div class="imgEDesc">
-                <img src="../Img/90km_com_fundo-removebg-preview.png" class="imgDaDesc">
-                <p>LIMITE DE VELOCIDADE DA VIA</p>
-            </div>
-            <!-- placa pare e descrição -->
-            <div class="imgEDesc">
-                <img src="../Img/pedestre_com_fundo-removebg-preview.png" class="imgDaDesc">
-                <p>PASSAGEM DE PEDESTRES</p>
-            </div>
-            <!-- placa pare e descrição -->
-            <div class="imgEDesc">
-                <img src="../Img/pista_escorregadia_com_fundo-removebg-preview.png" class="imgDaDesc">
-                <p>PISTA ESCORREGADIA</p>
-            </div>
-        </div>
-    </section>
-    <!-- última placa e start -->
-    <div>
     </div>
 </body>
 </html>
