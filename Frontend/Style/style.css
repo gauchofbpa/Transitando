@@ -456,11 +456,38 @@ header {
     display: flex; 
     align-items: center; 
     justify-content: center; 
+    text-align: center;
+    font-size: 35px;
 }
 .containerSerieInicial {
-    width: 200px;
-    height: 100px;
+    width: 100px;
+    height: 80px;
     background: transparent;
+}
+.semaforoMenorInicial {
+    display: absolute;
+    width: 26px;
+}
+.TelaPC {
+    display: absolute;
+    width: 300px;
+    z-index: 1;
+}
+.RuaSerieInicial {
+    display: absolute;
+    width: 160px;
+    z-index: -2;
+    transform: translate(-20px , -90px);
+}
+.RuaSerieInicial2 {
+    display: absolute;
+    width: 140px;
+    transform: translate(-200px , 110px);
+}
+.FundoSerieInicial{
+    width: 360px;
+    z-index: -2;
+    transform: translate(-10px , -250px);
 }
 /* FIM DO STYLE DA PÁGINA DE JOGOS DAS SÉRIES INICIAIS */
 /* STYLE DA PÁGINA DE JOGOS DO ENSINO MÉDIO - GAÚCHO */
