@@ -461,6 +461,7 @@ header {
     justify-content: center; 
     text-align: center;
     font-size: 35px;
+    
 }
 .containerSerieInicial {
     width: 100px;
@@ -473,7 +474,10 @@ header {
 }
 .TelaPC {
     display: absolute;
-    width: 300px;
+    width: 70%;
+    height: 70%;
+    max-width: 600px;
+    max-height: 600px;
     z-index: 1;
 }
 .RuaSerieInicial {
