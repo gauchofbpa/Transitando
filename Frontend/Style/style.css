@@ -221,16 +221,27 @@ header {
     text-align: center;
     margin-top: 135px;
 }
+
 /* FIM STYLE DA PÁGINA DE JOGOS DAS SÉRIES FINAIS */
+
 /* STYLE DA PÁGINA INICIAL - PAULA */
 
 #bodyBackground{
-    background-image: url(../Img/fundo.png);
     width: 100%;
     height: 100%;
-    position: absolute;
 }
 
+#bodyBackground #fundoBG {
+    width: 100vh;
+    height: 100vh;
+}
+
+
+
+.backgoundIMG {
+    position: fixed;
+    z-index: -1;
+}
 
 #placasEDesc {
     display:grid;
@@ -243,17 +254,6 @@ header {
 #placasEDesc img{
     max-width: 50%;
     max-height: 50%;
-}
-
-
-
-.backgoundIMG {
-    position: fixed;
-    z-index: -1;
-}
-
-.backgoundIMG img{
-    
 }
 
 #sobreEptran{
@@ -272,117 +272,6 @@ header {
     size: 20px;
 }
 
-.backgoundIMG img:nth-child(1) {
-    top: 10px;
-}
-
-.backgoundIMG img:nth-child(2) {
-    top: 100px;
-
-}
-
-.backgoundIMG img:nth-child(3) {
-    top: 10px;
-}
-
-#root {
-    overflow-y: scroll;
-    z-index: 9990;
-}
-
-/*.backgroundInicial {
-    height: 100vh;
-    width: 100vw;
-    max-height: 100vh;
-    overflow: hidden;
-    background-color: red;
-}
-#azul1 {
-    position: absolute;
-    left: -15px;
-    transform: scale(0.9);
-    z-index: 3;
-    bottom: -30px;
-}
-#azul2 {
-    position: absolute;
-    top: 7px;
-    /* transform: scale(-0.7); */
-   /*left: 212px;
-    /* transform: rotate(0deg); */
-   /* z-index: 4;
-} */
-/*#azul3 {
-    position: absolute;
-    z-index: 2;
-    bottom: -70px;
-    left: -200px;
-    transform: scale(0.5); 
-}
-#sobreEptran {
-    display: block;
-    background-color:#274B7D;
-    border-radius: 15px;
-    color: white;
-    position: absolute ;
-    margin-top: 60px;
-    width: 250px;
-    left: 40px;
-    font-family: 'Glacial Indifference', sans-serif;
-    padding: 10px;
-    text-align: center;
-}
-#placasEDesc {
-    z-index: 1;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 5px;
-    height: 40px;
-    width: 40px;
-}
-.imgEDesc {
-    text-align: center;
-    transform: scale(0.7);
-    margin: 0px;
-}
-.imgDaDesc {
-    transform: scale(0.4);
-} */
-/* RASCUNHO - PAULA
-.dropdown{
-    display: inline-block;
-    position: relative;
-}
-.dropdownLogo{
-    width: 50px;
-    height: auto;
-    padding: 5px;
-}
-.mainmenubtn{
-    background-color: skyblue;
-    color: white;
-    border: none;
-    cursor: pointer;
-    padding:20px;
-    margin-top:20px;
-}
-.mainmenubtn:hover{
-    background-color: white;
-}
-.dropdown-child{
-    display: none;
-    background-color: skyblue;
-    min-width: 200px; 
-}
-.dropdown:hover .dropdown-child {
-    display: block;
-}
-.dropdown:hover .dropdown-child {
-    display: block;
-}
-.dropdownContent {
-
-} */
 /* FIM DO STYLE DA PÁGINA INICIAL */
 /* STYLE DA PÁGINA DE CADASTRO - JONAS */
 .textoCadastro {
