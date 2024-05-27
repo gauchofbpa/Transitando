@@ -382,31 +382,42 @@ header {
     width: 100px;
     height: 80px;
     background: transparent;
+    z-index: 1;
 }
 .semaforoMenorInicial {
     display: absolute;
     width: 26px;
+    z-index: 1;
+}
+.TelaPCInicialPai{
+    position: relative;
 }
 .TelaPC {
     display: absolute;
-    width: 300px;
+    width: 70%;
+    height: 70%;
+    max-width: 600px;
+    max-height: 600px;
     z-index: 1;
 }
 .RuaSerieInicial {
     display: absolute;
     width: 160px;
-    z-index: -2;
+    z-index: -1;
     transform: translate(-20px , -90px);
 }
 .RuaSerieInicial2 {
     display: absolute;
     width: 140px;
+    z-index: -2;
     transform: translate(-200px , 110px);
 }
 .FundoSerieInicial{
+    display: absolute;
     width: 360px;
-    z-index: -2;
-    transform: translate(-10px , -250px);
+    z-index: -3;
+    left: 0px;
+    bottom: 60px;
 }
 /* FIM DO STYLE DA PÁGINA DE JOGOS DAS SÉRIES INICIAIS */
 /* STYLE DA PÁGINA DE JOGOS DO ENSINO MÉDIO - GAÚCHO */
