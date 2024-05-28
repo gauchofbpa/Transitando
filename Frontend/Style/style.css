@@ -1,12 +1,12 @@
 /* STYLE GERAL */
 body {
     font-family: 'Glacial Indifference', sans-serif;
-    background-color: #fafafa;
+    background-color: #f2f2f2;
     width: 100%;
     margin: 0px;
 }
 header {
-    background-color: #3464A7;
+    background-color: #023859;
     display: flex;
     height: 70px;
     width: 100%;
@@ -334,7 +334,7 @@ header {
     font-size: 80%;
 }
 
-#UltimaPlacaEDesc img{
+#ultimaPlacaEDesc img{
     max-width: 60%;
     max-height: 60%;
 }
@@ -370,6 +370,7 @@ header {
     justify-content: center;
     margin: auto;
     align-items: center;
+    margin: 1%;
 }
 .infoCadastro {
     color: white;
@@ -415,16 +416,16 @@ header {
     bottom: 0;
     left: 0;
     width: auto;
-    height: 140px;
+    height: 160px;
     padding: 0px;
 }
 #semaforoCadastro {
     position: absolute;
     right: 0;
     bottom: 0;
-    margin-right: 30px;
+    margin-right: 20px;
     width: auto;
-    height: 180px;
+    height: 190px;
 }
 /* FIM DO STYLE DA PÁGINA DE CADASTRO */
 /* STYLE DA PÁGINA DE JOGOS DAS SÉRIES INICIAIS - JONAS */
@@ -433,7 +434,11 @@ header {
     align-items: center; 
     justify-content: center; 
     text-align: center;
-    font-size: 35px;
+    font-size: 40px;
+    margin: -10px;
+}
+.textoVideoInicial{
+    font-size: 55px;
 }
 .containerSerieInicial {
     width: 100px;
@@ -446,35 +451,44 @@ header {
     width: 26px;
     z-index: 1;
 }
-.TelaPCInicialPai{
+.telaPCInicialPai{
     position: relative;
 }
-.TelaPC {
+.telaPC {
     display: absolute;
-    width: 70%;
-    height: 70%;
+    width: 85%;
+    height: 85%;
     max-width: 600px;
     max-height: 600px;
     z-index: 1;
 }
-.RuaSerieInicial {
-    display: absolute;
+.ruaSerieInicial {
+    position: absolute;
     width: 160px;
     z-index: -1;
-    transform: translate(-20px , -90px);
+    left: -10%;
+    bottom: -60px;
 }
-.RuaSerieInicial2 {
-    display: absolute;
+.ruaSerieInicial2 {
+   position: fixed;
     width: 140px;
     z-index: -2;
-    transform: translate(-200px , 110px);
+    bottom: -20;
+    left: -10%;
 }
-.FundoSerieInicial{
-    display: absolute;
+.fundoSerieInicial{
+    position: fixed;
     width: 360px;
-    z-index: -3;
-    left: 0px;
-    bottom: 60px;
+    z-index: -9999;
+    left: 0;
+    bottom: 0;
+}
+.textoVerticalSerieInicial{
+    font-family: 'Glacial Indifference', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
 }
 /* FIM DO STYLE DA PÁGINA DE JOGOS DAS SÉRIES INICIAIS */
 /* STYLE DA PÁGINA DE JOGOS DO ENSINO MÉDIO - GAÚCHO */
@@ -483,11 +497,13 @@ header {
     display: flex;
     justify-content: center;
     margin-top: 15px;
-    font-size: 24px;
+    font-size: 36px;
+    font-weight: 400;
 }
 .tituloPaginaEM img {
     width: auto;
-    height: 75px;
+    height: 70px;
+    margin-top: 10px;
 }
 .textoMedio {
     margin-left: 20px;
@@ -516,7 +532,7 @@ header {
 }
 .textoEnunciado {
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 400;
 }
 .containerAlternativa {
     background-color: #274B7D;
@@ -554,8 +570,10 @@ header {
     text-align: center;
     font-size: 20px;
     margin-top: -20px;
+    font-weight: 600;
 }
 .textoBotao {
+    font-weight: 500;
     font-size: 16px;
 }
 .botaoStart {
@@ -570,6 +588,7 @@ header {
     font-family: 'Glacial Indifference', sans-serif;
     font-size: 30px;
     font-weight: bold;
+    letter-spacing: 5px;
 }
 .imagemRoxo {
     position: absolute;
@@ -603,6 +622,7 @@ header {
     border-radius: 10px;
     padding: 15px;
     margin: auto;
+    width: 250px;
 }
 .rankingTabela {
     margin: auto;
@@ -619,7 +639,7 @@ header {
 }
 .rankingPontos {
     border-radius: 10px;    
-    width: 50px;
+    width: 10px;
     height: 15px;
     background-color: #FAFAFB;
 }
@@ -630,7 +650,21 @@ header {
     background-color: #FAFAFB;
 }
 .rankingLugar {
-    font-size: 18px;
+    font-size: 16px;
     text-align: center;
+}
+.semaforoRanking {
+    position: absolute;
+    z-index: -10;
+    margin-top: -170px;
+    left: 86.5%;
+}
+.estradaRanking {
+    position: absolute;
+    z-index: -10;
+    width: 300px;
+    margin-top: -400px;
+    margin-left: -65px;
+    transform: rotate(10deg);
 }
 /* FIM DO STYLE DA PÁGINA DE RANKING */
