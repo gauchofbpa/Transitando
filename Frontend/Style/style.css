@@ -96,13 +96,25 @@ header {
 }
 /* FIM DO STYLE DA PÁGINA DE LOGIN */
 /* STYLE DA PÁGINA DE ESCOLHA DO VÍDEO SÉRIES INICIAIS - NICOLAS */
-#backgroundEstrada {
+.backgroundEstrada {
     background-image: url("../Img/estradaBranca.png");
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: 0%;
 }
 .containerSerieInicialVideo {
+
+}
+.containerSerieFinalJogo {
+    text-align: center;
+    justify-content: center;
+    padding-top: 20px;
+    height: 300px;
+    width: 280px;
+    margin-top: 150px;
+    
+}
+.containerEnsinoMedioPerguntas {
     text-align: center;
     justify-content: center;
     padding-top: 20px;
@@ -110,7 +122,7 @@ header {
     width: 280px;
     margin-top: 150px;
 }
-#textoPrincipal {
+.textoPrincipal {
     background-image: url("../Img/fundoDeformado.png");
     background-repeat: no-repeat;
     background-size: 375px;
@@ -123,7 +135,7 @@ header {
 .textoBranco {
     color: white;
 }
-#textoSecundario {
+.textoSecundario {
     margin-top: 45px;
 }
 .textoNegrito {
@@ -159,6 +171,51 @@ header {
 .textoMargem {
     margin: 0px;
 }
+
+.container {
+    background-color: #3464A7;
+    text-align: center;
+    justify-content: center;
+    padding-top: 20px;
+    height: 300px;
+    width: 280px;
+    margin-top: 150px;
+    border-radius: 15px;
+}
+
+#carousel {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+#containerTotal {
+    position: relative;
+    display: flex;
+    gap: 10px;
+    width: fit-content;
+    margin-left: 50%;
+    transform: translateX(-16%);
+    /* 15, 47, 85 */
+    transition: 0.5s;
+}
+
+#right {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px;
+}
+
+#left {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px;
+}
+
+
 #semaforoMenorA {
     padding: 0px;
     margin: 0px;
