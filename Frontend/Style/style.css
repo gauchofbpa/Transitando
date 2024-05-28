@@ -1,12 +1,12 @@
 /* STYLE GERAL */
 body {
     font-family: 'Glacial Indifference', sans-serif;
-    background-color: #fafafa;
+    background-color: #f2f2f2;
     width: 100%;
     margin: 0px;
 }
 header {
-    background-color: #3464A7;
+    background-color: #023859;
     display: flex;
     height: 70px;
     width: 100%;
@@ -440,11 +440,13 @@ header {
     display: flex;
     justify-content: center;
     margin-top: 15px;
-    font-size: 24px;
+    font-size: 36px;
+    font-weight: 400;
 }
 .tituloPaginaEM img {
     width: auto;
-    height: 75px;
+    height: 70px;
+    margin-top: 10px;
 }
 .textoMedio {
     margin-left: 20px;
@@ -473,7 +475,7 @@ header {
 }
 .textoEnunciado {
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 400;
 }
 .containerAlternativa {
     background-color: #274B7D;
@@ -511,8 +513,10 @@ header {
     text-align: center;
     font-size: 20px;
     margin-top: -20px;
+    font-weight: 600;
 }
 .textoBotao {
+    font-weight: 500;
     font-size: 16px;
 }
 .botaoStart {
@@ -527,6 +531,7 @@ header {
     font-family: 'Glacial Indifference', sans-serif;
     font-size: 30px;
     font-weight: bold;
+    letter-spacing: 5px;
 }
 .imagemRoxo {
     position: absolute;
@@ -560,6 +565,7 @@ header {
     border-radius: 10px;
     padding: 15px;
     margin: auto;
+    width: 250px;
 }
 .rankingTabela {
     margin: auto;
@@ -576,7 +582,7 @@ header {
 }
 .rankingPontos {
     border-radius: 10px;    
-    width: 50px;
+    width: 10px;
     height: 15px;
     background-color: #FAFAFB;
 }
@@ -587,7 +593,21 @@ header {
     background-color: #FAFAFB;
 }
 .rankingLugar {
-    font-size: 18px;
+    font-size: 16px;
     text-align: center;
+}
+.semaforoRanking {
+    position: absolute;
+    z-index: -10;
+    margin-top: -170px;
+    left: 86.5%;
+}
+.estradaRanking {
+    position: absolute;
+    z-index: -10;
+    width: 300px;
+    margin-top: -400px;
+    margin-left: -65px;
+    transform: rotate(10deg);
 }
 /* FIM DO STYLE DA PÁGINA DE RANKING */
