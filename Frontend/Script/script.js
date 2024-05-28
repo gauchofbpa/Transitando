@@ -1,6 +1,4 @@
-
-// Script tela Escolha
-
+// SCRIPT DA PÁGINA DE ESCOLHA DAS SÉRIES - NICOLAS
 //Botões para mudar a série
 addEventListener('load', () => {
     const containerTotal = document.querySelector("#carousel")
@@ -37,4 +35,4 @@ addEventListener('load', () => {
     containerTotal.appendChild(buttonLeft)
     containerTotal.appendChild(buttonRight)
 })
-
+// FIM DO SCRIPT DA PÁGINA DE ESCOLHA DAS SÉRIES

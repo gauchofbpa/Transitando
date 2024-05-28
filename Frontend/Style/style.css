@@ -95,15 +95,12 @@ header {
     height: 250px;
 }
 /* FIM DO STYLE DA PÁGINA DE LOGIN */
-/* STYLE DA PÁGINA DE ESCOLHA DO VÍDEO SÉRIES INICIAIS - NICOLAS */
+/* STYLE DA PÁGINA DE ESCOLHA DAS SÉRIES - NICOLAS */
 .backgroundEstrada {
     background-image: url("../Img/estradaBranca.png");
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: 0%;
-}
-.containerSerieInicialVideo {
-
 }
 .containerSerieFinalJogo {
     text-align: center;
@@ -112,7 +109,6 @@ header {
     height: 300px;
     width: 280px;
     margin-top: 150px;
-    
 }
 .containerEnsinoMedioPerguntas {
     text-align: center;
@@ -171,7 +167,6 @@ header {
 .textoMargem {
     margin: 0px;
 }
-
 .container {
     background-color: #3464A7;
     text-align: center;
@@ -182,12 +177,10 @@ header {
     margin-top: 150px;
     border-radius: 15px;
 }
-
 #carousel {
     width: 100%;
     overflow-x: hidden;
 }
-
 #containerTotal {
     position: relative;
     display: flex;
@@ -198,7 +191,6 @@ header {
     /* 15, 47, 85 */
     transition: 0.5s;
 }
-
 #right {
     position: absolute;
     right: 10px;
@@ -206,7 +198,6 @@ header {
     transform: translateY(-50%);
     padding: 10px;
 }
-
 #left {
     position: absolute;
     left: 10px;
@@ -214,13 +205,11 @@ header {
     transform: translateY(-50%);
     padding: 10px;
 }
-
-
 #semaforoMenorA {
     padding: 0px;
     margin: 0px;
 }
-/* FIM DO STYLE DA PÁGINA DE ESCOLHA DO VÍDEO SÉRIES INICIAIS */
+/* FIM DO STYLE DA PÁGINA DE ESCOLHA DAS SÉRIES */
 /* STYLE DA PÁGINA DE JOGOS DAS SÉRIES FINAIS - NICOLAS */
 #bodyJogoFinais {
     margin: 0px;
@@ -315,10 +304,6 @@ header {
     margin-left: 75px;
     position: fixed;
     margin-top: -120px;
-}
-
-#estradinhaTelaInicial{
-
 }
 
 #startEPlaquinha button{
