@@ -281,23 +281,6 @@ header {
 
 /* STYLE DA PÁGINA INICIAL - PAULA */
 
-#bodyBackground{
-    width: 100%;
-    height: 100%;
-    max-width: 100VW;
-    overflow: hidden;
-    background-color: #f2f2f2;
-}
-
-.fundoTelaInicial{
-    display: absolute;
-    left: 50%;
-    top: 20%;
-    width: 400px;
-    z-index: -2;
-    transform: translate(-10px , -250px);
-}
-
 #startEPlaquinha{
     position: fixed;
     padding: 0;
@@ -332,14 +315,6 @@ header {
     font-family: 'Glacial Indifference', sans-serif;
     font-size: 30px;
     font-weight: bold;
-}
-
-.backgoundIMG {
-    top: 85%;
-    left: 0;
-    right: 0;
-    position: fixed;
-    z-index: -5555;
 }
 
 #quatroplacasEDesc {
