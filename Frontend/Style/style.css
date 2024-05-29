@@ -4,6 +4,7 @@ body {
     background-color: #f2f2f2;
     width: 100%;
     margin: 0px;
+    
 }
 header {
     background-color: #023859;
@@ -392,6 +393,18 @@ header {
 
 /* FIM DO STYLE DA PÁGINA INICIAL */
 /* STYLE DA PÁGINA DE CADASTRO - JONAS */
+#tirarScrolPagina{
+    overflow: hidden;
+    height: 100vh;
+}
+.divCentro { 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    text-align: center;
+    font-size: 40px;
+    margin: -10px;
+}
 .textoCadastro {
     text-align: center;
     margin: 20px;
@@ -411,12 +424,16 @@ header {
     text-align: center;
     padding-top: 1px;
 }
-#eclipseBranco {
-    padding: 1;
-    padding-bottom: 32px;
-    margin-left: 10px;margin-right: 10px;
+#campoTextoCadastro {
+    width: 80%;
+    padding-bottom: 20px;
     background-color: white;
     border-radius: 10px;
+    font-size: 18px;
+    text-align: center;
+    text-align-last: center;
+    border-color: white;
+    margin-bottom: 10px;
 }
 .botaoCadastro {
     display: flex;
@@ -425,7 +442,9 @@ header {
 }
 #botaoContinuar {
     margin-top: 10px;
-    padding: 10px 25px;
+    padding: 3% 5%;
+    padding-top: 10px;
+    padding-bottom: 10px;
     background-color: #274B7D;
     border-radius: 10px;
     border: solid #274B7D;
@@ -446,20 +465,26 @@ header {
     padding-bottom: 5px;
 }
 #guardaCadastro {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: auto;
-    height: 160px;
-    padding: 0px;
+    position: fixed;
+    bottom: 0px;
+    width: 60%;
+    max-width: 375px ;
+    max-height: auto;
+    height: auto;
+    object-fit: cover;
+    object-position: 10px 10px;
 }
 #semaforoCadastro {
-    position: absolute;
+    position: fixed;
     right: 0;
-    bottom: 0;
+    bottom: 0px;
     margin-right: 20px;
-    width: auto;
-    height: 190px;
+    width: 20%;
+    max-width: 120px;
+    max-height: auto;
+    height: auto;
+    object-fit: cover;
+    object-position: 10px 6px;
 }
 /* FIM DO STYLE DA PÁGINA DE CADASTRO */
 /* STYLE DA PÁGINA DE JOGOS DAS SÉRIES INICIAIS - JONAS */
