@@ -96,11 +96,12 @@ header {
 }
 /* FIM DO STYLE DA PÁGINA DE LOGIN */
 /* STYLE DA PÁGINA DE ESCOLHA DAS SÉRIES - NICOLAS */
-.backgroundEstrada {
+#backgroundEstrada {
     background-image: url("../Img/estradaBranca.png");
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: 0%;
+    background-position-y: 125px;
 }
 .containerSerieFinalJogo {
     text-align: center;
@@ -187,8 +188,8 @@ header {
     gap: 10px;
     width: fit-content;
     margin-left: 50%;
-    transform: translateX(-16%);
-    /* 15, 47, 85 */
+    transform: translateX(-16.4%);
+    
     transition: 0.5s;
 }
 #right {
@@ -208,6 +209,14 @@ header {
 #semaforoMenorA {
     padding: 0px;
     margin: 0px;
+}
+
+#right, #left {
+    border-radius: 25px;
+    font-size: 24px;
+    background-color: #3464A7;
+    border-width: 4px;
+    border-color: black;
 }
 /* FIM DO STYLE DA PÁGINA DE ESCOLHA DAS SÉRIES */
 /* STYLE DA PÁGINA DE JOGOS DAS SÉRIES FINAIS - NICOLAS */

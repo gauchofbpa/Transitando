@@ -6,17 +6,14 @@ addEventListener('load', () => {
 
     let change = 0;
 
-
+    const possitions = ["translateX(-16.4%)", "translateX(-50%)", "translateX(-83.5%)"]    
+     
     const buttonLeft = document.createElement('button')
     buttonLeft.innerText = "<"
     buttonLeft.id = "left"
     buttonLeft.addEventListener('click', () => {
-        if (change == 1) {
-            element.style.transform = "translateX(-15%)"
-        } else if (change == 2) {
-            element.style.transform = "translateX(-47%)"
-        }
-        change -=1
+        change = Math.max(change - 1, 0)
+        element.style.transform = possitions[change];
         console.log(change)
     })
     
@@ -24,12 +21,9 @@ addEventListener('load', () => {
     buttonRight.innerText = ">"
     buttonRight.id = "right"
     buttonRight.addEventListener('click', () => {
-        if (change == 0) {
-            element.style.transform = "translateX(-47%)"
-        } else if (change == 1) {
-        element.style.transform = "translateX(-79%)"
-        }
-        change += 1
+        change = Math.min(change + 1, 2)
+        element.style.transform = possitions[change];
+        console.log(change)
     })
     
     containerTotal.appendChild(buttonLeft)
