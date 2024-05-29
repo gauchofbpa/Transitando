@@ -585,7 +585,7 @@ header {
     position: absolute;
     bottom: 0;
     left: 0;
-    z-index: -1;
+    z-index: -2;
 }
 /* FIM DO STYLE DA PÁGINA DE JOGOS DO ENSINO MÉDIO */
 /* STYLE DA PÁGINA PARA COMEÇAR OS JOGOS - GAÚCHO */
@@ -624,10 +624,11 @@ header {
     font-weight: bold;
     letter-spacing: 5px;
 }
-.imagemRoxo {
-    position: absolute;
-    bottom: 0;
-    left: 0;
+#backgroundInicio {
+    background-image: url(../Img/FundoSerieInicial.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom;
 }
 .imagemEstrada {
     position: absolute;
@@ -638,6 +639,7 @@ header {
     margin-top: -70px;
     margin-right: 100px;
 }
+
 /* FIM DO STYLE DA PÁGINA PARA COMEÇAR OS JOGOS */
 /* STYLE DA PÁGINA DE RANKING - GAÚCHO */
 .tituloPaginaRanking {
