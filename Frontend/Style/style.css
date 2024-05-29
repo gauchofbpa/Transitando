@@ -97,11 +97,12 @@ header {
 }
 /* FIM DO STYLE DA PÁGINA DE LOGIN */
 /* STYLE DA PÁGINA DE ESCOLHA DAS SÉRIES - NICOLAS */
-.backgroundEstrada {
+#backgroundEstrada {
     background-image: url("../Img/estradaBranca.png");
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: 0%;
+    background-position-y: 125px;
 }
 .containerSerieFinalJogo {
     text-align: center;
@@ -188,8 +189,8 @@ header {
     gap: 10px;
     width: fit-content;
     margin-left: 50%;
-    transform: translateX(-16%);
-    /* 15, 47, 85 */
+    transform: translateX(-16.4%);
+    
     transition: 0.5s;
 }
 #right {
@@ -209,6 +210,14 @@ header {
 #semaforoMenorA {
     padding: 0px;
     margin: 0px;
+}
+
+#right, #left {
+    border-radius: 25px;
+    font-size: 24px;
+    background-color: #3464A7;
+    border-width: 4px;
+    border-color: black;
 }
 /* FIM DO STYLE DA PÁGINA DE ESCOLHA DAS SÉRIES */
 /* STYLE DA PÁGINA DE JOGOS DAS SÉRIES FINAIS - NICOLAS */
@@ -273,23 +282,6 @@ header {
 
 /* STYLE DA PÁGINA INICIAL - PAULA */
 
-#bodyBackground{
-    width: 100%;
-    height: 100%;
-    max-width: 100VW;
-    overflow: hidden;
-    background-color: #f2f2f2;
-}
-
-.fundoTelaInicial{
-    display: absolute;
-    left: 50%;
-    top: 20%;
-    width: 400px;
-    z-index: -2;
-    transform: translate(-10px , -250px);
-}
-
 #startEPlaquinha{
     position: fixed;
     padding: 0;
@@ -324,14 +316,6 @@ header {
     font-family: 'Glacial Indifference', sans-serif;
     font-size: 30px;
     font-weight: bold;
-}
-
-.backgoundIMG {
-    top: 85%;
-    left: 0;
-    right: 0;
-    position: fixed;
-    z-index: -5555;
 }
 
 #quatroplacasEDesc {
@@ -610,7 +594,7 @@ header {
     position: absolute;
     bottom: 0;
     left: 0;
-    z-index: -1;
+    z-index: -2;
 }
 /* FIM DO STYLE DA PÁGINA DE JOGOS DO ENSINO MÉDIO */
 /* STYLE DA PÁGINA PARA COMEÇAR OS JOGOS - GAÚCHO */
@@ -649,10 +633,11 @@ header {
     font-weight: bold;
     letter-spacing: 5px;
 }
-.imagemRoxo {
-    position: absolute;
-    bottom: 0;
-    left: 0;
+#backgroundInicio {
+    background-image: url(../Img/FundoSerieInicial.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom;
 }
 .imagemEstrada {
     position: absolute;
@@ -663,6 +648,7 @@ header {
     margin-top: -70px;
     margin-right: 100px;
 }
+
 /* FIM DO STYLE DA PÁGINA PARA COMEÇAR OS JOGOS */
 /* STYLE DA PÁGINA DE RANKING - GAÚCHO */
 .tituloPaginaRanking {
