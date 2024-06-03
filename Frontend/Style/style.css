@@ -4,7 +4,8 @@ body {
     background-color: #f2f2f2;
     width: 100%;
     margin: 0px;
-    
+    overflow: hidden;
+    height: 100vh;
 }
 
 /* FIM DO STYLE GERAL */
@@ -374,10 +375,6 @@ body {
 
 /* FIM DO STYLE DA PÁGINA INICIAL */
 /* STYLE DA PÁGINA DE CADASTRO - JONAS */
-#tirarScrolPagina{
-    overflow: hidden;
-    height: 100vh;
-}
 .divCentro { 
     display: flex; 
     align-items: center; 
@@ -393,7 +390,7 @@ body {
     font-size: 45px;
 }
 .backgroundCadastro {
-    background-color: #023859;
+    background-color: #3464A7;
     border-radius: 25px;
     justify-content: center;
     margin: auto;
@@ -421,25 +418,23 @@ body {
     justify-content: center;
     align-items: center;
 }
-#botaoContinuar {
+.botaoContinuar {
     margin-top: 10px;
     padding: 3% 5%;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: #023859;
+    background-color: #274B7D;
     border-radius: 10px;
-    border: solid #02273d;
+    border: solid #274B7D;
     color: white;
-    margin: 5px;
 }
-#botaoContinuar:hover {
+.botaoContinuar:hover {
     background-color: #1e314b;
 }
 .textoOu {
     color: white;
     text-align: center;
-    margin: -10px;
-    margin-bottom: -15px;
+    margin: -5px;
 }
 .textoLogin {
     color: white;
@@ -520,9 +515,8 @@ body {
 }
 .fundoSerieInicial{
     position: fixed;
-    width: 97%;
-    
-    z-index: -2;
+    width: 360px;
+    z-index: -9999;
     left: 0;
     bottom: 0;
 }
@@ -701,8 +695,10 @@ body {
 .semaforoRanking {
     position: absolute;
     z-index: -10;
-    margin-top: -170px;
-    left: 86.5%;
+    margin-top: -160px;
+    left: 85%;
+    width: 70px;
+    height: 250px;
 }
 .estradaRanking {
     position: absolute;
