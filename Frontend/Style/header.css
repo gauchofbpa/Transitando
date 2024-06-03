@@ -34,7 +34,7 @@ header {
 
 .dropdown .content{
    transform: translateX(-50%);
-   background-color: #3464A7;
+   background-color: #F2D06B;
    color: #f2f2f2;
    padding: 20px;
    border-radius: 5px;
@@ -70,6 +70,6 @@ a:hover {
     position: absolute;
     top: -5px;
     right: 25px;
-    background-color:#3464A7;
+    background-color:#F2D06B;
 }
 
