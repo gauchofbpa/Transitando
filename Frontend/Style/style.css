@@ -393,7 +393,7 @@ body {
     font-size: 45px;
 }
 .backgroundCadastro {
-    background-color: #3464A7;
+    background-color: #023859;
     border-radius: 25px;
     justify-content: center;
     margin: auto;
@@ -426,10 +426,11 @@ body {
     padding: 3% 5%;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: #274B7D;
+    background-color: #023859;
     border-radius: 10px;
-    border: solid #274B7D;
+    border: solid #02273d;
     color: white;
+    margin: 5px;
 }
 #botaoContinuar:hover {
     background-color: #1e314b;
@@ -437,7 +438,8 @@ body {
 .textoOu {
     color: white;
     text-align: center;
-    margin: -5px;
+    margin: -10px;
+    margin-bottom: -15px;
 }
 .textoLogin {
     color: white;
@@ -518,8 +520,9 @@ body {
 }
 .fundoSerieInicial{
     position: fixed;
-    width: 360px;
-    z-index: -9999;
+    width: 97%;
+    
+    z-index: -2;
     left: 0;
     bottom: 0;
 }
