@@ -418,7 +418,7 @@ body {
     justify-content: center;
     align-items: center;
 }
-#botaoContinuar {
+.botaoContinuar {
     margin-top: 10px;
     padding: 3% 5%;
     padding-top: 10px;
@@ -428,7 +428,7 @@ body {
     border: solid #274B7D;
     color: white;
 }
-#botaoContinuar:hover {
+.botaoContinuar:hover {
     background-color: #1e314b;
 }
 .textoOu {
