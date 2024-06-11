@@ -374,6 +374,26 @@ body {
 }
 
 /* FIM DO STYLE DA PÁGINA INICIAL */
+/* STYLE DA PÁGINA INFOS - PAULA */
+
+#infos{
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.infosPequenas{
+    justify-content: center;
+    align-items:center;
+    align-items:center;
+}
+
+.infosPequenas .h2{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* FIM DO STYLE DA PÁGINA INFOS */
 /* STYLE DA PÁGINA DE CADASTRO - JONAS */
 .divCentro { 
     display: flex; 
