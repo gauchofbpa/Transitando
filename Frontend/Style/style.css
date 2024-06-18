@@ -437,6 +437,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 .botaoContinuar {
     margin-top: 10px;
@@ -494,12 +495,20 @@ body {
     font-size: 40px;
     margin: -10px;
 }
+.divCentroFundo{
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    text-align: center;
+    font-size: 40px;
+    margin: -10px;
+}
 .textoVideoInicial{
     font-size: 55px;
 }
 .containerSerieInicial {
-    width: 100px;
-    height: 80px;
+    width: 50px;
+    height: 50px;
     background: transparent;
     z-index: 1;
 }
@@ -508,44 +517,64 @@ body {
     width: 26px;
     z-index: 1;
 }
-.telaPCInicialPai{
-    position: relative;
-}
-.telaPC {
-    display: absolute;
-    width: 85%;
-    height: 85%;
-    max-width: 600px;
-    max-height: 600px;
-    z-index: 1;
-}
-.ruaSerieInicial {
-    position: absolute;
-    width: 160px;
-    z-index: -1;
-    left: -10%;
-    bottom: -60px;
-}
-.ruaSerieInicial2 {
-   position: fixed;
-    width: 140px;
-    z-index: -2;
-    bottom: -20;
-    left: -10%;
+.containerSerieInicial2{
+    width: 20px;
+    height: 20px;
+    background: transparent;
 }
 .fundoSerieInicial{
-    position: fixed;
-    width: 360px;
-    z-index: -9999;
-    left: 0;
-    bottom: 0;
+    width: 70%;
+    min-height: 250px;
+    max-height: 350px;
+    background-color: #3464A7;
+    border-radius: 10px;
+    border: solid black 3px;
+    display: flex;
+    align-content: center;
+    align-items: center;
 }
-.textoVerticalSerieInicial{
-    font-family: 'Glacial Indifference', sans-serif;
+.textoPerguntaSerieInicial{
+    color: white;
     font-size: 30px;
+    padding-bottom: 5px;
+    margin: 10px;
+}
+.textoPerguntaSerieInicialSublinhado{
+    color: white;
+    font-size: 30px;
+    padding-bottom: 5px;
+    margin: 10px;
+    text-decoration: underline;
+}
+.botaoSerieIncial{
+    position: absolute;
+    border-radius: 30%;
+    background-color: rgb(252,212,76);
+    width: 150px;
+    height: 40px;
+    border: 4px solid black;
+    text-align: center;
+    box-shadow: 0 7px rgb(252,212,76);
+    font-family: 'Glacial Indifference', sans-serif;
+    font-size: 24px;
     font-weight: bold;
-    writing-mode: vertical-lr;
-    text-orientation: upright;
+    letter-spacing: 3px;
+    z-index: 2;
+}
+#backgroundSerieIncial {
+    background-image: url(../Img/FundoSerieInicial.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+}
+.guardaInicio{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: auto;
+    height: 150px;
+    padding: 0px;
+    z-index: 3;
 }
 /* FIM DO STYLE DA PÁGINA DE JOGOS DAS SÉRIES INICIAIS */
 /* STYLE DA PÁGINA DE JOGOS DO ENSINO MÉDIO - GAÚCHO */
