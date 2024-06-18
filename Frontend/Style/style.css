@@ -25,11 +25,12 @@ body {
     margin-top: 36px;
 }
 .containerGeral {
+    border: 4px solid black;
     background-color: #3464A7;
     border-radius: 25px;
     justify-content: center;
     width: 95%;
-    height: 215px;
+    height: 250px;
     margin-left: auto;
     margin-right: auto; 
     align-items: center;
@@ -45,9 +46,12 @@ body {
     align-items: center;
 }
 #usuarioLogin, #senhaLogin {
+    font-size: 18px;
     margin-bottom: 2px;
+    color: white
 }
 .botaoLogin {
+    margin-top: 30px;
     border-width: 0px;
     background-color: #3464A7;
     color: white;
@@ -57,14 +61,14 @@ body {
     border-radius: 25px;
     border-width: 1px;
     width: 275px; 
-    height: 25px;
+    height: 45px;
 }
 #guardaLogin {
     position: absolute;
     bottom: 0;
     left: 0;
     width: auto;
-    height: 275px;
+    height: 255px;
     padding: 0px;
 }
 #semaforoLogin {
@@ -73,7 +77,7 @@ body {
     bottom: 0;
     margin-right: 30px;
     width: auto;
-    height: 250px;
+    height: 225px;
 }
 /* FIM DO STYLE DA PÁGINA DE LOGIN */
 /* STYLE DA PÁGINA DE ESCOLHA DAS SÉRIES - NICOLAS */
@@ -374,26 +378,35 @@ body {
 }
 
 /* FIM DO STYLE DA PÁGINA INICIAL */
-/* STYLE DA PÁGINA INFOS - PAULA */
-
-#infos{
-    margin-left: 25%;
-    margin-right: 25%;
-}
-
-.infosPequenas{
-    justify-content: center;
-    align-items:center;
-    align-items:center;
-}
-
-.infosPequenas .h2{
-    justify-content: center;
-    align-items: center;
+/* STYLE DA PÁGINA DE CONTATO - PAULA */
+.textoContato {
+    margin-top: 50px;
+    font-size: 40px;
+    font-weight: 500;
     text-align: center;
+    margin-bottom: 50px;
 }
-
-/* FIM DO STYLE DA PÁGINA INFOS */
+.divContato {
+    margin-left: 5%;
+}
+.textoContatoRoxo {
+    color: #023859;
+    margin-bottom: 45px;
+}
+.textoContatoInfo {
+    font-weight: 400;
+}
+.footerInfo {
+    background-color:#023859;
+    height: 130px;
+    margin-top: 65px;
+}
+.footerInfo img {
+    width: 350px;
+    height: 300px;
+    margin-top: -90px;
+}
+/* FIM DO STYLE DA PÁGINA DE CONTATO */
 /* STYLE DA PÁGINA DE CADASTRO - JONAS */
 .divCentro { 
     display: flex; 
@@ -416,6 +429,7 @@ body {
     margin: auto;
     align-items: center;
     margin: 1%;
+    border: 4px solid black;
 }
 .infoCadastro {
     color: white;
@@ -437,9 +451,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 .botaoContinuar {
-    margin-top: 10px;
+    margin-top: 15px;
     padding: 3% 5%;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -447,6 +462,7 @@ body {
     border-radius: 10px;
     border: solid #274B7D;
     color: white;
+    font-size: 24px;
 }
 .botaoContinuar:hover {
     background-color: #1e314b;
@@ -463,9 +479,10 @@ body {
     padding-bottom: 5px;
 }
 #guardaCadastro {
+    margin-left: -20px;
     position: fixed;
     bottom: 0px;
-    width: 60%;
+    width: 45%;
     max-width: 375px ;
     max-height: auto;
     height: auto;
@@ -494,12 +511,20 @@ body {
     font-size: 40px;
     margin: -10px;
 }
+.divCentroFundo{
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    text-align: center;
+    font-size: 40px;
+    margin: -10px;
+}
 .textoVideoInicial{
     font-size: 55px;
 }
 .containerSerieInicial {
-    width: 100px;
-    height: 80px;
+    width: 50px;
+    height: 50px;
     background: transparent;
     z-index: 1;
 }
@@ -508,44 +533,64 @@ body {
     width: 26px;
     z-index: 1;
 }
-.telaPCInicialPai{
-    position: relative;
-}
-.telaPC {
-    display: absolute;
-    width: 85%;
-    height: 85%;
-    max-width: 600px;
-    max-height: 600px;
-    z-index: 1;
-}
-.ruaSerieInicial {
-    position: absolute;
-    width: 160px;
-    z-index: -1;
-    left: -10%;
-    bottom: -60px;
-}
-.ruaSerieInicial2 {
-   position: fixed;
-    width: 140px;
-    z-index: -2;
-    bottom: -20;
-    left: -10%;
+.containerSerieInicial2{
+    width: 20px;
+    height: 20px;
+    background: transparent;
 }
 .fundoSerieInicial{
-    position: fixed;
-    width: 360px;
-    z-index: -9999;
-    left: 0;
-    bottom: 0;
+    width: 70%;
+    min-height: 250px;
+    max-height: 350px;
+    background-color: #3464A7;
+    border-radius: 10px;
+    border: solid black 3px;
+    display: flex;
+    align-content: center;
+    align-items: center;
 }
-.textoVerticalSerieInicial{
-    font-family: 'Glacial Indifference', sans-serif;
+.textoPerguntaSerieInicial{
+    color: white;
     font-size: 30px;
+    padding-bottom: 5px;
+    margin: 10px;
+}
+.textoPerguntaSerieInicialSublinhado{
+    color: white;
+    font-size: 30px;
+    padding-bottom: 5px;
+    margin: 10px;
+    text-decoration: underline;
+}
+.botaoSerieIncial{
+    position: absolute;
+    border-radius: 30%;
+    background-color: rgb(252,212,76);
+    width: 150px;
+    height: 40px;
+    border: 4px solid black;
+    text-align: center;
+    box-shadow: 0 7px rgb(252,212,76);
+    font-family: 'Glacial Indifference', sans-serif;
+    font-size: 24px;
     font-weight: bold;
-    writing-mode: vertical-lr;
-    text-orientation: upright;
+    letter-spacing: 3px;
+    z-index: 2;
+}
+#backgroundSerieIncial {
+    background-image: url(../Img/FundoSerieInicial.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+}
+.guardaInicio{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: auto;
+    height: 150px;
+    padding: 0px;
+    z-index: 3;
 }
 /* FIM DO STYLE DA PÁGINA DE JOGOS DAS SÉRIES INICIAIS */
 /* STYLE DA PÁGINA DE JOGOS DO ENSINO MÉDIO - GAÚCHO */
@@ -626,7 +671,6 @@ body {
 .containerTexto {
     text-align: center;
     font-size: 20px;
-    margin-top: -20px;
     font-weight: 600;
 }
 .textoBotao {
@@ -668,28 +712,32 @@ body {
 .tituloPaginaRanking {
     display: flex;
     justify-content: center;
-    margin-top: 10px;
+    margin-top: -25px;
     font-size: 50px;
 }
 .tituloPaginaRanking img {
     width: auto;
     height: 60px;
-    margin-top: 42.5px;
+    margin-top: 50px;
 }
 .rankingFundo {
+    border: 4px solid black;
     background-color: #3464A7;
-    border-radius: 10px;
-    padding: 15px;
+    border-radius: 12.5px;
+    padding: 5px;
     margin: auto;
-    width: 250px;
+    width: 290px;
+    height: 500px;
+    margin-top: -30px;
 }
 .rankingTabela {
     margin: auto;
     font-size: 26px;
     padding: 10px;
-    width: auto;
     background-color: #E6F1FF;
     border-radius: 10px;
+    height: 100%;
+    text-align: center;
 }
 .rankingPrincipal {
     font-size: 24px;
@@ -699,33 +747,33 @@ body {
 .rankingPontos {
     border-radius: 10px;    
     width: 10px;
-    height: 15px;
+    min-height: 15px;
     background-color: #FAFAFB;
 }
 .rankingNome {
     border-radius: 10px;   
     width: 270px;
-    height: 15px;
+    min-height: 15px;
     background-color: #FAFAFB;
 }
 .rankingLugar {
-    font-size: 16px;
+    font-size: 20px;
     text-align: center;
 }
 .semaforoRanking {
     position: absolute;
-    z-index: -10;
-    margin-top: -160px;
-    left: 85%;
+    z-index: 10;
+    margin-top: -90px;
+    left: 84%;
     width: 70px;
     height: 250px;
 }
 .estradaRanking {
     position: absolute;
     z-index: -10;
-    width: 300px;
-    margin-top: -400px;
+    width: 250px;
+    margin-top: -425px;
     margin-left: -65px;
-    transform: rotate(10deg);
+    transform: rotate(15deg);
 }
 /* FIM DO STYLE DA PÁGINA DE RANKING */
