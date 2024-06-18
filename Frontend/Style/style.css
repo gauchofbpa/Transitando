@@ -204,58 +204,99 @@ body {
 #bodyJogoFinais {
     margin: 0px;
     padding: 0px;
+    background-image: url(../Img/backgroundSeriesFinais.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
 }
 #containerTextoSeries {
-    margin-top: 70px;
+    /* margin-top: 70px; */
     display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: max-content;
+    font-size: 36px;
 }
 #containerTextoSeries img {
     width: auto;
-    height: 28px;
+    height: 48px;
     margin-top: 10px;
     margin-left: 0px;
     margin-right: 0px;
+    padding: 0px;
 }
-#textoAtencao {
-    padding-top: 15px;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
+#containerTextoSeries p {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
-#corAtencao {
-    margin-bottom: 5px;
-    color: #FFD42A;
-    font-size: 28px; 
-}
-#containerTextoPrincipal {
+
+#centroFinaisSecundario {
+    margin-top: 20px;
+    background-color: #3464A7;
+    border: solid black 5px;
+    border-radius: 10px;
+    width: 80%;
+    height: 43%;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
-    margin-top: 0px;
-    padding-top: 0px;
-    padding-bottom: 105px;
-}
-#containerTextoPrincipal img {
-    margin-top: 0px;
-    padding-top: 0px;   
-    top: 0;
-    transform: translateY(-50px);
-}
-#enunciadoJogoFinais p{
-    font-size: 14px;
-    margin-bottom: 0px;
-    margin-top: 0px;
-    gap: 10px;
-}
-#containerEstacionamento {
+    flex-direction: column;
     text-align: center;
-    margin-top: 0px;
+    align-items: center;
 }
-#containerEstacionamento img {
+
+#centroFinaisSecundario button {
+    width: 90%;
+    height: auto;
+    background-color: #2f5181;
+    border-color: #2f5181;
+}
+
+#containerBalao {
+    text-align: center;
     position: absolute;
-    transform: translateX(-143px) translateY(-75px);
-    border-radius: 15px;
+    left: -50%;
+    right: -50%;
+    top: 24%;
 }
+
+#balaoPerguntas{
+    border-radius: 35%;
+    background-color: rgb(252,212,76);
+    width: 160px;
+    height: 60px;
+    border: 4px solid black;
+    text-align: center;
+    box-shadow: 0 7px rgb(252,212,76);
+    font-family: 'Glacial Indifference', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#pergunta {
+    color: white;
+    margin-top: 50px;
+    font-size: 18px;
+    max-width: 90%;
+}
+
 #containerBotao {
     text-align: center;
-    margin-top: 135px;
+    margin-top: 65px;   
+}
+
+#centroFinaisSecundario button {
+    width: 200px;
+    height: 80px;
+    margin-top: auto;
+    margin-bottom: 15px;
+    font-size: 12px;
+    color: white;
+    border-radius: 15px;
+    border: none;
 }
 
 /* FIM STYLE DA PÁGINA DE JOGOS DAS SÉRIES FINAIS */

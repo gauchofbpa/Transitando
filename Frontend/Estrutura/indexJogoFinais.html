@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="../Style/style.css">
     <link href="https://fonts.cdnfonts.com/css/glacial-indifference-2" rel="stylesheet">
     <link rel="stylesheet" href="../Style/header.css">
-    <script src="../Script/script.js"></script>
+    <script type="module" src="../Script/scriptFinais.js"></script>
     <script src="../Script/scriptDropDown.js"></script>
     <title>Transitando - Séries Finais</title>
 </head>
@@ -31,25 +31,20 @@
         <img src="../Img/semaforoMenor.png" alt="semaforinho">
         <p>ES FINAIS</p>
     </div>
-    <div id="textoPrincipal">
-        <div id="textoAtencao">
-            <h1 id="corAtencao">ATENÇÃO:</h1>
-        </div>
-        <div id="containerTextoPrincipal">
-            <div id="textoSecundario">
-                <img src="../Img/placaAviso.png" alt="aviso">
-            </div>
-            <div id="enunciadoJogoFinais">
-                <p class="textoNegrito textoBranco">PASSAGEIRO A BORDO</p>
-                <p class="textoBranco">A segur você se deparará com muitos problemas cotidianos em um estacionamento. Resolva-os com exelência</p>
-            </div>   
-        </div>    
-        <div id="containerEstacionamento">
-            <img src="../Img/estacionamento.png" alt="estacionamento">
+    <div id="centroFinais">
+        <div id="containerBalao">
+            <button id="balaoPerguntas">PERGUNTA 1/10:</button>
+       </div> 
+        <div id="centroFinaisSecundario">
+            <p id="pergunta"></p>
+            <button class="alternativa" letra="A">A)</button>
+            <button class="alternativa" letra="B">B)</button>
+            <button class="alternativa" letra="C">C)</button>
         </div>
     </div>
+    
     <div id="containerBotao">
-        <button class="botaoStartGeral">START</button>
+        <button class="botaoStartGeral">PRÓXIMO</button>
     </div>
 </body>
 </html>
