@@ -13,7 +13,6 @@ header {
 
 
 
-
 /* dropdown */
 
 /* .dropdown {
@@ -78,44 +77,80 @@ a:visited {
  */
 
  /* ESTILO DO DROPDOWN */
-
-
-
-/* header nav ul {
-    list-style-type: none;
+ 
+.header .btn-abrir-menu svg{
+    right: 0;
 }
 
+ .btn-abrir-menu svg{
+    color: #f2f2f2;
+ }
+
+
+
  .menu-mobile{
-    background-color: red;
+    background-color: #b4b4b4;
     height: 100vh;
     position: fixed;
     top: 0;
-    left: 0;
+    right: 0;
     z-index: 9999;
-    width: 70%;
+    width: 0%;
+    overflow: hidden;
+    
  }
 
  .menu-mobile nav {
-    text-align: left;
+    text-align: right;
 
  }
 
  .menu-mobile nav a{
-    color: #f2f2f2;
+    color: #023859;
     font-size: 20px;
-    font-weight: 300;
-    padding: 0 ;
+    font-weight: 100;
+    padding: 20px 8% ;
     margin-left: 10px;
     font-style: normal;
     text-decoration: none;
+    display: block;
  }
 
 
  .menu-mobile nav  a:hover{
-    background-color: green;
+    color: #f2f2f2;
+    background-color: #023859;
     display: block;
     margin: 10px;
     padding: 10px;
- } */
+    transform: scale(1.05);
+ } 
 
 
+ #espaçoPerfil{
+    background-color: #023859;
+ }
+
+#perfilENome{
+    display: flex;
+    margin: 5% 20%;
+}
+
+#perfilENome p{
+    color: #f2f2f2;
+}
+
+.menu-mobile #espaçoPerfil .btn-fechar {
+    padding: 10px 4%;
+}
+
+
+.menu-mobile #espaçoPerfil .btn-fechar svg{
+    color: #f2f2f2;
+    
+}
+.menu-mobile #espaçoPerfil .perfilENome svg{
+    color: #f2f2f2;
+    border: none;
+  
+}
