@@ -1,23 +1,18 @@
-// addEventListener("load", dropDown)
 
-// function dropDown(){
-//     const dropDownElement = document.querySelector(".dropdown")
-//     console.log(dropDownElement)
-//     const buttonElement = document.querySelector(".mainmenubtn")
-//     buttonElement.addEventListener("click", () => handleToggleMenu(dropDownElement))
-// }
 
-// /**
-//  * 
-//  * @param {Element} dropDownElement 
-//  */
-// function handleToggleMenu(dropDownElement){
-//     const isActive = dropDownElement.getAttribute("active") === "true"
 
-//     dropDownElement.setAttribute("active", !isActive)
+let btnMenu = document.getElementById('btn-menu')
+let menu = document.getElementById('menu-mobile')
+let overlay = document.getElementById('overlay-menu')
 
-//     console.log(dropDownElement.getAttribute("active"))
+btnMenu.addEventListener('click', () => {
+    menu.classList.add('abrir-menu')
+})
 
-// }
 
-// novo dropdown abaixo
+menu.addEventListener('click', () => {
+    menu.classList.remove('abrir-menu')
+})
+overlay.addEventListener('click', () => {
+    menu.classList.remove('abrir-menu')
+})

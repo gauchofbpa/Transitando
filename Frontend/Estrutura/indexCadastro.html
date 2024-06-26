@@ -6,7 +6,7 @@
     <link href="https://fonts.cdnfonts.com/css/glacial-indifference-2" rel="stylesheet">
     <link rel="stylesheet" href="../Style/header.css">
     <script src="../Script/script.js"></script>
-    <script src="../Script/scriptDropDown.js"></script>
+    <script src="../Script/scriptDropDown.js" defer></script>
     <title>Transitando - Cadastro</title>
 </head>
 <body>
@@ -17,14 +17,14 @@
         </div>
 
         <!-- icone para abrir o menu -->
-        <div class="btn-abrir-menu">
+        <div class="btn-abrir-menu" id="btn-menu">
             <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
                 <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
             </svg>
         </div>
 
         <!-- conteudo do menu -->
-         <div class="menu-mobile">
+         <div class="menu-mobile" id="menu-mobile">
 
             <div id="espaçoPerfil">
                 <div class="btn-fechar">
@@ -46,15 +46,19 @@
 
             <nav>
                     <!-- fazer caminhos das paginas  -->
-                    <p><a href="#">TELA INICIAL</a></p>
-                    <p><a href="#">SÉRIE INICIAL</a></p>
-                    <p><a href="#">SÉRIE FINAL</a></p>
-                    <p><a href="#">ENSINO MÉDIO</a></p>
-                    <p><a href="#">RANKING</a></p>
-                    <p><a href="#">CONTATO</a></p>
+                    <p><a href="./indexTelaInicial.html">TELA INICIAL</a></p>
+                    <p><a href="indexVideoIniciais.html">SÉRIE INICIAL</a></p>
+                    <p><a href="indexJogoFinais.html">SÉRIE FINAL</a></p>
+                    <p><a href="indexEnsinoMedio.html">ENSINO MÉDIO</a></p>
+                    <p><a href="indexRanking.html">RANKING</a></p>
+                    <p><a href="indexContato.html">CONTATO</a></p>
                 
             </nav>
-        </div> 
+        </div>   <!--menu mobile -->
+
+        <div class="overlay-menu" id="overlay-menu"></div>
+
+
     </header>
 
 
