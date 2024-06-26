@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="../Style/header.css">
     <link href="https://fonts.cdnfonts.com/css/glacial-indifference-2" rel="stylesheet">
     <script src="../Script/script.js"></script>
-    <script src="../Script/scriptDropDown.js"></script>
+    <script src="../Script/scriptDropDown.js" defer></script>
     <title>Transitando - Vídeo das Séries Iniciais</title>
 </head>
 <body id="backgroundSerieIncial">
@@ -15,16 +15,50 @@
         <div>
             <img src="../Img/logoPrefeitura.png" class="logoImg">
         </div>
-        <!-- menu suspenso -->
-        <div class="dropdown" active="false" > 
-            <button class="mainmenubtn">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>
-            </button>
-            <div class="content">
-                <a href="../Estrutura/indexTelaInicial.html">Home</a>
-                <a href="../Estrutura/indexContato.html">Contato</a>
-            </div>
+
+        <!-- icone para abrir o menu -->
+        <div class="btn-abrir-menu" id="btn-menu">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+            </svg>
         </div>
+
+        <!-- conteudo do menu -->
+         <div class="menu-mobile" id="menu-mobile">
+
+            <div id="espaçoPerfil">
+                <div class="btn-fechar">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+                        <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z"/>
+                    </svg>
+                </div>
+
+                <!-- icone minha conta e linkagem -->
+                <div id="perfilENome"> 
+                    <button><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                        <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+                        <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
+                    </svg></button>
+                    <p>MINHA CONTA</p>    <!--linkar para a página da conta do usuário--> 
+                </div>
+
+            </div>
+
+            <nav>
+                    <!-- fazer caminhos das paginas  -->
+                    <p><a href="./indexTelaInicial.html">TELA INICIAL</a></p>
+                    <p><a href="indexVideoIniciais.html">SÉRIE INICIAL</a></p>
+                    <p><a href="indexJogoFinais.html">SÉRIE FINAL</a></p>
+                    <p><a href="indexEnsinoMedio.html">ENSINO MÉDIO</a></p>
+                    <p><a href="indexRanking.html">RANKING</a></p>
+                    <p><a href="indexContato.html">CONTATO</a></p>
+                
+            </nav>
+        </div>   <!--menu mobile -->
+
+        <div class="overlay-menu" id="overlay-menu"></div>
+
+
     </header>
     <!-- Container para espaço do texto "SERIES INICIAIS" -->
     <section class="divCentro">
