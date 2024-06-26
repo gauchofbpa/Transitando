@@ -818,3 +818,51 @@ body {
     transform: rotate(15deg);
 }
 /* FIM DO STYLE DA PÁGINA DE RANKING */
+/* STYLE DA PÁGINA DE DADOS CADASTRADOS DO USUÁRIO - GAÚCHO */
+.tituloDadosCadastrados {
+    text-align: center;
+    margin-top: 55px;
+}
+.tituloDadosCadastrados h2 {
+    font-size: 30px;
+    font-weight: 500;
+}
+.tituloDadosCadastrados hr {
+    margin-top: -20px;
+    width: 315px;
+    border-top: 1px solid black;
+}
+.textoDadosCadastrados {
+    font-weight: 600;
+    font-size: 20px;
+}
+.imagemDadosCadastrados {
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+}
+.imagemEditarDados {
+    width: 20px;
+    height: 20px;
+}
+.campoDadosCadastrados {
+    width: 225px;
+    border-radius: 2px 20px;
+    margin-right: 15px;
+    margin-left: 5px;
+}
+.textoDadosCadastrados {
+    margin-left: 80px;
+    margin-bottom: -15px;
+}
+.footerMenuUsuario {
+    background-color:#023859;
+    height: 200px;
+    margin-top: 65px;
+}
+.footerMenuUsuario img {
+    width: 355px;
+    height: 300px;
+    margin-top: -50px;
+}
+/* FIM STYLE DA PÁGINA DE DADOS CADASTRADOS DO USUÁRIO */
